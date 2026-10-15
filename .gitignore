@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+dist-ssr/
+
+# Environment configurations & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+*.env.local
+
+# Certificates & Private Keys
+*.pem
+*.key
+*.cert
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
